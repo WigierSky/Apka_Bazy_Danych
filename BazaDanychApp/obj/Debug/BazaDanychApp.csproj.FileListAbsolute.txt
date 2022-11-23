@@ -1,0 +1,12 @@
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\bin\Debug\BazaDanychApp.exe.config
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\bin\Debug\BazaDanychApp.exe
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\bin\Debug\BazaDanychApp.pdb
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.csproj.AssemblyReference.cache
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.csproj.SuggestedBindingRedirects.cache
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Properties.Resources.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.csproj.GenerateResource.cache
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.csproj.CoreCompileInputs.cache
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.exe
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.pdb
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Login_Screen.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Admin_Panel.resources
