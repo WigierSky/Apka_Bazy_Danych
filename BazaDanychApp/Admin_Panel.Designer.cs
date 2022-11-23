@@ -37,37 +37,40 @@
             // Edit_Clients_Button
             // 
             this.Edit_Clients_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Edit_Clients_Button.Location = new System.Drawing.Point(282, 220);
+            this.Edit_Clients_Button.Location = new System.Drawing.Point(292, 220);
             this.Edit_Clients_Button.Name = "Edit_Clients_Button";
             this.Edit_Clients_Button.Size = new System.Drawing.Size(175, 175);
             this.Edit_Clients_Button.TabIndex = 0;
             this.Edit_Clients_Button.Text = "Edytuj klientów";
             this.Edit_Clients_Button.UseVisualStyleBackColor = true;
+            this.Edit_Clients_Button.Click += new System.EventHandler(this.Edit_Clients_Button_Click);
             // 
             // Edit_CDs
             // 
             this.Edit_CDs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Edit_CDs.Location = new System.Drawing.Point(52, 220);
+            this.Edit_CDs.Location = new System.Drawing.Point(63, 220);
             this.Edit_CDs.Name = "Edit_CDs";
             this.Edit_CDs.Size = new System.Drawing.Size(175, 175);
             this.Edit_CDs.TabIndex = 1;
             this.Edit_CDs.Text = "Edytuj płyty";
             this.Edit_CDs.UseVisualStyleBackColor = true;
+            this.Edit_CDs.Click += new System.EventHandler(this.Edit_CDs_Click);
             // 
             // Edit_Workers_Button
             // 
             this.Edit_Workers_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Edit_Workers_Button.Location = new System.Drawing.Point(282, 28);
+            this.Edit_Workers_Button.Location = new System.Drawing.Point(292, 28);
             this.Edit_Workers_Button.Name = "Edit_Workers_Button";
             this.Edit_Workers_Button.Size = new System.Drawing.Size(175, 175);
             this.Edit_Workers_Button.TabIndex = 2;
             this.Edit_Workers_Button.Text = "Edytuj pracowników";
             this.Edit_Workers_Button.UseVisualStyleBackColor = true;
+            this.Edit_Workers_Button.Click += new System.EventHandler(this.Edit_Workers_Button_Click);
             // 
             // Edit_Loans_Button
             // 
             this.Edit_Loans_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Edit_Loans_Button.Location = new System.Drawing.Point(52, 28);
+            this.Edit_Loans_Button.Location = new System.Drawing.Point(63, 28);
             this.Edit_Loans_Button.Name = "Edit_Loans_Button";
             this.Edit_Loans_Button.Size = new System.Drawing.Size(175, 175);
             this.Edit_Loans_Button.TabIndex = 3;

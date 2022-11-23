@@ -20,7 +20,25 @@ namespace BazaDanychApp
         private void Edit_Loans_Button_Click(object sender, EventArgs e)
         {
             new Loan_Panel().Show();
-            this.Hide();
+            this.Close();
+        }
+
+        private void Edit_Workers_Button_Click(object sender, EventArgs e)
+        {
+            new Worker_Panel().Show();
+            this.Close();
+        }
+
+        private void Edit_Clients_Button_Click(object sender, EventArgs e)
+        {
+            new Client_Panel().Show();
+            this.Close();
+        }
+
+        private void Edit_CDs_Click(object sender, EventArgs e)
+        {
+            new CD_Panel().Show();
+            this.Close();
         }
     }
 }

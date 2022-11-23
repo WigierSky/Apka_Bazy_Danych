@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Worker_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Worker_Form.Designer.cs">
+      <DependentUpon>Add_Worker_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CD_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CD_Panel.Designer.cs">
+      <DependentUpon>CD_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client_Panel.Designer.cs">
+      <DependentUpon>Client_Panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loan_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +84,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Worker_Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Worker_Panel.Designer.cs">
+      <DependentUpon>Worker_Panel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Worker_Form.resx">
+      <DependentUpon>Add_Worker_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CD_Panel.resx">
+      <DependentUpon>CD_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client_Panel.resx">
+      <DependentUpon>Client_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loan_Panel.resx">
+      <DependentUpon>Loan_Panel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_Screen.resx">
       <DependentUpon>Login_Screen.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,6 +117,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Worker_Panel.resx">
+      <DependentUpon>Worker_Panel.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

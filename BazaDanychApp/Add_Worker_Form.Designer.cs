@@ -1,6 +1,6 @@
 ﻿namespace BazaDanychApp
 {
-    partial class Loan_Panel
+    partial class Add_Worker_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Loan_Panel
+            // Add_Worker_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Loan_Panel";
+            this.ClientSize = new System.Drawing.Size(518, 435);
+            this.Name = "Add_Worker_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Loan_Panel";
+            this.Text = "Add_Worker_Form";
             this.ResumeLayout(false);
 
         }
