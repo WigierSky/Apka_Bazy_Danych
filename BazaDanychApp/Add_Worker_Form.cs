@@ -16,5 +16,17 @@ namespace BazaDanychApp
         {
             InitializeComponent();
         }
+
+        private void Add_button_Click(object sender, EventArgs e)
+        {
+            new Worker_Panel().Show();
+            this.Close();
+        }
+
+        private void Back_Button_Click(object sender, EventArgs e)
+        {
+            new Worker_Panel().Show();
+            this.Close();
+        }
     }
 }
