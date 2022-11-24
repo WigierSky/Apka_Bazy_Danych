@@ -41,30 +41,30 @@
             // label_logg
             // 
             this.label_logg.AutoSize = true;
-            this.label_logg.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label_logg.Location = new System.Drawing.Point(121, 42);
+            this.label_logg.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_logg.Location = new System.Drawing.Point(121, 33);
             this.label_logg.Name = "label_logg";
-            this.label_logg.Size = new System.Drawing.Size(176, 46);
+            this.label_logg.Size = new System.Drawing.Size(214, 46);
             this.label_logg.TabIndex = 0;
             this.label_logg.Text = "Zaloguj się";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(40, 134);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(25, 135);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 35);
+            this.label1.Size = new System.Drawing.Size(98, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "Login:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(38, 194);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(24, 192);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 35);
+            this.label2.Size = new System.Drawing.Size(99, 36);
             this.label2.TabIndex = 2;
             this.label2.Text = "Hasło:";
             // 
@@ -119,7 +119,7 @@
             this.Pass_Box.Size = new System.Drawing.Size(188, 34);
             this.Pass_Box.TabIndex = 7;
             // 
-            // Form1
+            // Login_Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -133,7 +133,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label_logg);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Login_Screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Logowanie";
             this.Load += new System.EventHandler(this.Form1_Load);
