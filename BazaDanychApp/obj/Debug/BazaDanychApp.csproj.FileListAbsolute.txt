@@ -15,3 +15,4 @@ E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Work
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Add_Worker_Form.resources
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Client_Panel.resources
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Loan_Panel.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Add_CD_Panel.resources

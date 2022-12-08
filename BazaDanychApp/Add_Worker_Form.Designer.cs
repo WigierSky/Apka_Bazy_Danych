@@ -40,7 +40,6 @@
             this.PESEL_Label = new System.Windows.Forms.Label();
             this.Street_Label = new System.Windows.Forms.Label();
             this.Phone_Num_Label = new System.Windows.Forms.Label();
-            this.Name_Textbox = new System.Windows.Forms.TextBox();
             this.Surname_textbox = new System.Windows.Forms.TextBox();
             this.Street_textbox = new System.Windows.Forms.TextBox();
             this.Flat_nr_textbox = new System.Windows.Forms.TextBox();
@@ -53,6 +52,7 @@
             this.Salary_textbox = new System.Windows.Forms.TextBox();
             this.Add_button = new System.Windows.Forms.Button();
             this.Back_Button = new System.Windows.Forms.Button();
+            this.Name_Textbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Add_Worker_Label
@@ -109,7 +109,7 @@
             // 
             this.Flat_Nr_Label.AutoSize = true;
             this.Flat_Nr_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Flat_Nr_Label.Location = new System.Drawing.Point(245, 152);
+            this.Flat_Nr_Label.Location = new System.Drawing.Point(373, 197);
             this.Flat_Nr_Label.Name = "Flat_Nr_Label";
             this.Flat_Nr_Label.Size = new System.Drawing.Size(116, 20);
             this.Flat_Nr_Label.TabIndex = 5;
@@ -119,7 +119,7 @@
             // 
             this.House_Nr_Label.AutoSize = true;
             this.House_Nr_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.House_Nr_Label.Location = new System.Drawing.Point(281, 116);
+            this.House_Nr_Label.Location = new System.Drawing.Point(416, 149);
             this.House_Nr_Label.Name = "House_Nr_Label";
             this.House_Nr_Label.Size = new System.Drawing.Size(73, 20);
             this.House_Nr_Label.TabIndex = 6;
@@ -129,7 +129,7 @@
             // 
             this.Post_Code_Label.AutoSize = true;
             this.Post_Code_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Post_Code_Label.Location = new System.Drawing.Point(248, 193);
+            this.Post_Code_Label.Location = new System.Drawing.Point(376, 243);
             this.Post_Code_Label.Name = "Post_Code_Label";
             this.Post_Code_Label.Size = new System.Drawing.Size(113, 20);
             this.Post_Code_Label.TabIndex = 7;
@@ -159,7 +159,7 @@
             // 
             this.Street_Label.AutoSize = true;
             this.Street_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Street_Label.Location = new System.Drawing.Point(307, 83);
+            this.Street_Label.Location = new System.Drawing.Point(442, 101);
             this.Street_Label.Name = "Street_Label";
             this.Street_Label.Size = new System.Drawing.Size(47, 20);
             this.Street_Label.TabIndex = 10;
@@ -169,19 +169,11 @@
             // 
             this.Phone_Num_Label.AutoSize = true;
             this.Phone_Num_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Phone_Num_Label.Location = new System.Drawing.Point(263, 236);
+            this.Phone_Num_Label.Location = new System.Drawing.Point(398, 295);
             this.Phone_Num_Label.Name = "Phone_Num_Label";
             this.Phone_Num_Label.Size = new System.Drawing.Size(91, 20);
             this.Phone_Num_Label.TabIndex = 11;
             this.Phone_Num_Label.Text = "Nr telefonu";
-            // 
-            // Name_Textbox
-            // 
-            this.Name_Textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Name_Textbox.Location = new System.Drawing.Point(96, 76);
-            this.Name_Textbox.Name = "Name_Textbox";
-            this.Name_Textbox.Size = new System.Drawing.Size(145, 27);
-            this.Name_Textbox.TabIndex = 12;
             // 
             // Surname_textbox
             // 
@@ -194,7 +186,7 @@
             // Street_textbox
             // 
             this.Street_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Street_textbox.Location = new System.Drawing.Point(361, 76);
+            this.Street_textbox.Location = new System.Drawing.Point(530, 94);
             this.Street_textbox.Name = "Street_textbox";
             this.Street_textbox.Size = new System.Drawing.Size(145, 27);
             this.Street_textbox.TabIndex = 14;
@@ -202,7 +194,7 @@
             // Flat_nr_textbox
             // 
             this.Flat_nr_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Flat_nr_textbox.Location = new System.Drawing.Point(360, 149);
+            this.Flat_nr_textbox.Location = new System.Drawing.Point(530, 190);
             this.Flat_nr_textbox.Name = "Flat_nr_textbox";
             this.Flat_nr_textbox.Size = new System.Drawing.Size(145, 27);
             this.Flat_nr_textbox.TabIndex = 15;
@@ -210,7 +202,7 @@
             // House_Nr_textbox
             // 
             this.House_Nr_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.House_Nr_textbox.Location = new System.Drawing.Point(360, 113);
+            this.House_Nr_textbox.Location = new System.Drawing.Point(530, 145);
             this.House_Nr_textbox.Name = "House_Nr_textbox";
             this.House_Nr_textbox.Size = new System.Drawing.Size(145, 27);
             this.House_Nr_textbox.TabIndex = 16;
@@ -226,7 +218,7 @@
             // Phone_Num_textbox
             // 
             this.Phone_Num_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Phone_Num_textbox.Location = new System.Drawing.Point(359, 233);
+            this.Phone_Num_textbox.Location = new System.Drawing.Point(530, 292);
             this.Phone_Num_textbox.Name = "Phone_Num_textbox";
             this.Phone_Num_textbox.Size = new System.Drawing.Size(146, 27);
             this.Phone_Num_textbox.TabIndex = 18;
@@ -242,7 +234,7 @@
             // PostCode_textbox
             // 
             this.PostCode_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.PostCode_textbox.Location = new System.Drawing.Point(361, 190);
+            this.PostCode_textbox.Location = new System.Drawing.Point(530, 236);
             this.PostCode_textbox.Name = "PostCode_textbox";
             this.PostCode_textbox.Size = new System.Drawing.Size(145, 27);
             this.PostCode_textbox.TabIndex = 20;
@@ -266,7 +258,7 @@
             // Add_button
             // 
             this.Add_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Add_button.Location = new System.Drawing.Point(200, 343);
+            this.Add_button.Location = new System.Drawing.Point(330, 434);
             this.Add_button.Name = "Add_button";
             this.Add_button.Size = new System.Drawing.Size(133, 37);
             this.Add_button.TabIndex = 23;
@@ -277,7 +269,7 @@
             // Back_Button
             // 
             this.Back_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Back_Button.Location = new System.Drawing.Point(200, 386);
+            this.Back_Button.Location = new System.Drawing.Point(330, 477);
             this.Back_Button.Name = "Back_Button";
             this.Back_Button.Size = new System.Drawing.Size(133, 37);
             this.Back_Button.TabIndex = 24;
@@ -285,11 +277,20 @@
             this.Back_Button.UseVisualStyleBackColor = true;
             this.Back_Button.Click += new System.EventHandler(this.Back_Button_Click);
             // 
+            // Name_Textbox
+            // 
+            this.Name_Textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Name_Textbox.Location = new System.Drawing.Point(96, 76);
+            this.Name_Textbox.Name = "Name_Textbox";
+            this.Name_Textbox.Size = new System.Drawing.Size(145, 27);
+            this.Name_Textbox.TabIndex = 12;
+            this.Name_Textbox.TextChanged += new System.EventHandler(this.Name_Textbox_TextChanged);
+            // 
             // Add_Worker_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 435);
+            this.ClientSize = new System.Drawing.Size(782, 553);
             this.Controls.Add(this.Back_Button);
             this.Controls.Add(this.Add_button);
             this.Controls.Add(this.Salary_textbox);
@@ -317,7 +318,7 @@
             this.Controls.Add(this.Add_Worker_Label);
             this.Name = "Add_Worker_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Add_Worker_Form";
+            this.Text = "Add_CD_Panel";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,7 +338,6 @@
         private System.Windows.Forms.Label PESEL_Label;
         private System.Windows.Forms.Label Street_Label;
         private System.Windows.Forms.Label Phone_Num_Label;
-        private System.Windows.Forms.TextBox Name_Textbox;
         private System.Windows.Forms.TextBox Surname_textbox;
         private System.Windows.Forms.TextBox Street_textbox;
         private System.Windows.Forms.TextBox Flat_nr_textbox;
@@ -350,5 +350,6 @@
         private System.Windows.Forms.TextBox Salary_textbox;
         private System.Windows.Forms.Button Add_button;
         private System.Windows.Forms.Button Back_Button;
+        private System.Windows.Forms.TextBox Name_Textbox;
     }
 }

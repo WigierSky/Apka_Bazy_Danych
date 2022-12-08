@@ -40,5 +40,11 @@ namespace BazaDanychApp
             new CD_Panel().Show();
             this.Close();
         }
+
+        private void Back_Button_WP_Click(object sender, EventArgs e)
+        {
+            new Login_Screen().Show();
+            this.Close();
+        }
     }
 }

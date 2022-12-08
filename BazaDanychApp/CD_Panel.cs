@@ -16,5 +16,11 @@ namespace BazaDanychApp
         {
             InitializeComponent();
         }
+
+        private void Add_CD_Button_Click(object sender, EventArgs e)
+        {
+            new Add_CD_Panel().Show();
+            this.Hide();
+        }
     }
 }
