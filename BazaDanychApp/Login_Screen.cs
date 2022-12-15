@@ -19,7 +19,7 @@ namespace BazaDanychApp
 
         //przykładowy connection string
         //public static string connetionString = @"Data Source=DESKTOP-T5M32D0;Initial Catalog=wypozyczalnia_plyt_winylowych;Integrated Security=true";
-
+        //public bool isAdmin = false;
        
         public Login_Screen()
         {
@@ -58,11 +58,13 @@ namespace BazaDanychApp
             {
                 new Loan_Panel().Show();
                 this.Hide();
+                Global.isAdmin = false;
             }
             else if (Login_Box.Text == "Admin" && Pass_Box.Text == "Pass")
             {
                 new Admin_Panel().Show();
                 this.Hide();
+                Global.isAdmin = true;
             }
             else
             {

@@ -23,14 +23,7 @@ namespace BazaDanychApp
             Global.cnn.Open();
             string command_team = "Select nazwa_zespolu From autorzy Where nazwa_zespolu IS NOT NULL";
                
-            string command_solo = "Select imie_artysty, nazwisko_artysty From autorzy Where nazwisko_artysty IS NOT NULL";
-            string count = "Select COUNT(*) From autorzy";
-
-           
-           // SqlCommand counter = new SqlCommand(count, Global.cnn);
-
-            //Int32 size = (Int32)counter.ExecuteScalar();
-
+            string command_solo = "Select imie_nazwisko_artysty From autorzy Where imie_nazwisko_artysty IS NOT NULL";
 
             SqlCommand com = new SqlCommand(command_team, Global.cnn);
 
@@ -51,14 +44,36 @@ namespace BazaDanychApp
                 while (reader.Read())
                 {
 
-                    Author_Combo_Box.Items.Add(String.Format("{0} {1}",
-                        reader[0], reader[1]));
+                    Author_Combo_Box.Items.Add(String.Format("{0}",
+                        reader[0]));
                 }
             }
-
             Global.cnn.Close();
             //foreach authot in 
             // Author_Combo_Box.Items.Add();
+        }
+
+        private void Author_Combo_Box_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Title_ComboBox.Items.Clear();   
+            Global.cnn.Open();
+            string autor = Author_Combo_Box.SelectedItem.ToString();
+
+            string command_team = "Select tytul From tytul Where autor_id = (Select autor_id from autorzy Where nazwa_zespolu IS NOT NULL AND nazwa_zespolu = '" + autor +
+                "' OR imie_nazwisko_artysty = '" + autor + "')";
+
+            SqlCommand com = new SqlCommand(command_team, Global.cnn);
+
+            using (SqlDataReader reader = com.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+
+                    Title_ComboBox.Items.Add(String.Format("{0}",
+                        reader[0]));
+                }
+            }
+            Global.cnn.Close();
         }
     }
 }

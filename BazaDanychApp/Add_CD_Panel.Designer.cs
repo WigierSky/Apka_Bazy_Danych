@@ -33,6 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Author_Label = new System.Windows.Forms.Label();
+            this.Title_ComboBox = new System.Windows.Forms.ComboBox();
+            this.Title_Label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Add_CD_Label
@@ -53,6 +55,7 @@
             this.Author_Combo_Box.Name = "Author_Combo_Box";
             this.Author_Combo_Box.Size = new System.Drawing.Size(455, 39);
             this.Author_Combo_Box.TabIndex = 2;
+            this.Author_Combo_Box.SelectedIndexChanged += new System.EventHandler(this.Author_Combo_Box_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -84,11 +87,32 @@
             this.Author_Label.TabIndex = 5;
             this.Author_Label.Text = "Autor";
             // 
+            // Title_ComboBox
+            // 
+            this.Title_ComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Title_ComboBox.FormattingEnabled = true;
+            this.Title_ComboBox.Location = new System.Drawing.Point(174, 249);
+            this.Title_ComboBox.Name = "Title_ComboBox";
+            this.Title_ComboBox.Size = new System.Drawing.Size(455, 39);
+            this.Title_ComboBox.TabIndex = 6;
+            // 
+            // Title_Label
+            // 
+            this.Title_Label.AutoSize = true;
+            this.Title_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Title_Label.Location = new System.Drawing.Point(66, 256);
+            this.Title_Label.Name = "Title_Label";
+            this.Title_Label.Size = new System.Drawing.Size(76, 32);
+            this.Title_Label.TabIndex = 7;
+            this.Title_Label.Text = "Tytuł";
+            // 
             // Add_CD_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 553);
+            this.Controls.Add(this.Title_Label);
+            this.Controls.Add(this.Title_ComboBox);
             this.Controls.Add(this.Author_Label);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -109,5 +133,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Author_Label;
+        private System.Windows.Forms.ComboBox Title_ComboBox;
+        private System.Windows.Forms.Label Title_Label;
     }
 }
