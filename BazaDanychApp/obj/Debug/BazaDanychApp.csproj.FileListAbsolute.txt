@@ -16,3 +16,14 @@ E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Add_
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Client_Panel.resources
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Loan_Panel.resources
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Add_CD_Panel.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Show_workers.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Authors.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Show_Authors.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.AddAuthors.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_Authors.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Show_Titles.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Title.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Add_Title.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Del_Titles.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Show_CDs.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_CD.resources

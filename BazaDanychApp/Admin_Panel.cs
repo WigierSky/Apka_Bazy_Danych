@@ -41,9 +41,20 @@ namespace BazaDanychApp
             this.Close();
         }
 
-        private void Back_Button_WP_Click(object sender, EventArgs e)
+        private void Author_Edit_Button_Click(object sender, EventArgs e)
         {
-            new Login_Screen().Show();
+            new Authors().Show();
+            this.Close();
+        }
+
+        private void Exit_Button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Tittle_Edit_Button_Click(object sender, EventArgs e)
+        {
+            new Title().Show();
             this.Close();
         }
     }

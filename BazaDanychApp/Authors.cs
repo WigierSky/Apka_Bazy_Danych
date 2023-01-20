@@ -10,33 +10,34 @@ using System.Windows.Forms;
 
 namespace BazaDanychApp
 {
-    public partial class Worker_Panel : Form
+    public partial class Authors : Form
     {
-        public Worker_Panel()
+        public Authors()
         {
             InitializeComponent();
         }
 
-        private void Back_Button_WP_Click(object sender, EventArgs e)
+        private void Back_Button_Click(object sender, EventArgs e)
         {
             new Admin_Panel().Show();
             this.Close();
         }
 
-        private void Add_Worker_Button_Click(object sender, EventArgs e)
+        private void Author_Show_Butt_Click(object sender, EventArgs e)
         {
-            new Add_Worker_Form().Show();
+            new Show_Authors().Show();
             this.Close();
         }
 
-        private void Edit_Worker_Button_Click(object sender, EventArgs e)
+        private void Author_Add_Button_Click(object sender, EventArgs e)
         {
-
+            new AddAuthors().Show();
+            this.Close();
         }
 
-        private void Show_butt_Click(object sender, EventArgs e)
+        private void Author_Delete_Button_Click(object sender, EventArgs e)
         {
-            new Show_workers().Show();
+            new Delete_Authors().Show();
             this.Close();
         }
     }

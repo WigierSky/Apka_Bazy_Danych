@@ -60,7 +60,7 @@ namespace BazaDanychApp
                 this.Hide();
                 Global.isAdmin = false;
             }
-            else if (Login_Box.Text == "Admin" && Pass_Box.Text == "Pass")
+            else if (Login_Box.Text == "" && Pass_Box.Text == "")
             {
                 new Admin_Panel().Show();
                 this.Hide();

@@ -22,5 +22,23 @@ namespace BazaDanychApp
             new Add_CD_Panel().Show();
             this.Hide();
         }
+
+        private void Edit_CD_Button_Click(object sender, EventArgs e)
+        {
+            new Show_CDs().Show();
+            this.Close();
+        }
+
+        private void Back_Button_Click(object sender, EventArgs e)
+        {
+            new Admin_Panel().Show();
+            this.Close();
+        }
+
+        private void Del_CD_Button_Click(object sender, EventArgs e)
+        {
+            new Delete_CD().Show();
+            this.Close();
+        }
     }
 }

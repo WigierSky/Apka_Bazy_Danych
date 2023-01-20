@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAuthors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAuthors.Designer.cs">
+      <DependentUpon>AddAuthors.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add_CD_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Add_CD_Panel.Designer.cs">
       <DependentUpon>Add_CD_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Title.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Title.Designer.cs">
+      <DependentUpon>Add_Title.cs</DependentUpon>
     </Compile>
     <Compile Include="Add_Worker_Form.cs">
       <SubType>Form</SubType>
@@ -58,11 +70,35 @@
     <Compile Include="Add_Worker_Form.Designer.cs">
       <DependentUpon>Add_Worker_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authors.Designer.cs">
+      <DependentUpon>Authors.cs</DependentUpon>
+    </Compile>
     <Compile Include="CD_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CD_Panel.Designer.cs">
       <DependentUpon>CD_Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Authors.Designer.cs">
+      <DependentUpon>Delete_Authors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_CD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_CD.Designer.cs">
+      <DependentUpon>Delete_CD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Del_Titles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Del_Titles.Designer.cs">
+      <DependentUpon>Del_Titles.cs</DependentUpon>
     </Compile>
     <Compile Include="Global.cs" />
     <Compile Include="Client_Panel.cs">
@@ -91,23 +127,71 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Show_Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Authors.Designer.cs">
+      <DependentUpon>Show_Authors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_CDs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_CDs.Designer.cs">
+      <DependentUpon>Show_CDs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Titles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Titles.Designer.cs">
+      <DependentUpon>Show_Titles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_workers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_workers.Designer.cs">
+      <DependentUpon>Show_workers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Title.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Title.Designer.cs">
+      <DependentUpon>Title.cs</DependentUpon>
+    </Compile>
     <Compile Include="Worker_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Worker_Panel.Designer.cs">
       <DependentUpon>Worker_Panel.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddAuthors.resx">
+      <DependentUpon>AddAuthors.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add_CD_Panel.resx">
       <DependentUpon>Add_CD_Panel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Add_Title.resx">
+      <DependentUpon>Add_Title.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add_Worker_Form.resx">
       <DependentUpon>Add_Worker_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Authors.resx">
+      <DependentUpon>Authors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CD_Panel.resx">
       <DependentUpon>CD_Panel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Client_Panel.resx">
       <DependentUpon>Client_Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Authors.resx">
+      <DependentUpon>Delete_Authors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_CD.resx">
+      <DependentUpon>Delete_CD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Del_Titles.resx">
+      <DependentUpon>Del_Titles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan_Panel.resx">
       <DependentUpon>Loan_Panel.cs</DependentUpon>
@@ -127,6 +211,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Show_Authors.resx">
+      <DependentUpon>Show_Authors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_CDs.resx">
+      <DependentUpon>Show_CDs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Titles.resx">
+      <DependentUpon>Show_Titles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_workers.resx">
+      <DependentUpon>Show_workers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Title.resx">
+      <DependentUpon>Title.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Worker_Panel.resx">
       <DependentUpon>Worker_Panel.cs</DependentUpon>
     </EmbeddedResource>

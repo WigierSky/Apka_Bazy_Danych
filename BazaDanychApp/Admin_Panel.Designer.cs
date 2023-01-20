@@ -32,9 +32,9 @@
             this.Edit_CDs = new System.Windows.Forms.Button();
             this.Edit_Workers_Button = new System.Windows.Forms.Button();
             this.Edit_Loans_Button = new System.Windows.Forms.Button();
-            this.Back_Button_WP = new System.Windows.Forms.Button();
             this.Tittle_Edit_Button = new System.Windows.Forms.Button();
             this.Author_Edit_Button = new System.Windows.Forms.Button();
+            this.Exit_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Edit_Clients_Button
@@ -81,17 +81,6 @@
             this.Edit_Loans_Button.UseVisualStyleBackColor = true;
             this.Edit_Loans_Button.Click += new System.EventHandler(this.Edit_Loans_Button_Click);
             // 
-            // Back_Button_WP
-            // 
-            this.Back_Button_WP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Back_Button_WP.Location = new System.Drawing.Point(681, 518);
-            this.Back_Button_WP.Name = "Back_Button_WP";
-            this.Back_Button_WP.Size = new System.Drawing.Size(99, 33);
-            this.Back_Button_WP.TabIndex = 8;
-            this.Back_Button_WP.Text = "Wróć";
-            this.Back_Button_WP.UseVisualStyleBackColor = true;
-            this.Back_Button_WP.Click += new System.EventHandler(this.Back_Button_WP_Click);
-            // 
             // Tittle_Edit_Button
             // 
             this.Tittle_Edit_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -101,6 +90,7 @@
             this.Tittle_Edit_Button.TabIndex = 9;
             this.Tittle_Edit_Button.Text = "Edytuj tytuły";
             this.Tittle_Edit_Button.UseVisualStyleBackColor = true;
+            this.Tittle_Edit_Button.Click += new System.EventHandler(this.Tittle_Edit_Button_Click);
             // 
             // Author_Edit_Button
             // 
@@ -111,6 +101,18 @@
             this.Author_Edit_Button.TabIndex = 10;
             this.Author_Edit_Button.Text = "Edytuj autorów";
             this.Author_Edit_Button.UseVisualStyleBackColor = true;
+            this.Author_Edit_Button.Click += new System.EventHandler(this.Author_Edit_Button_Click);
+            // 
+            // Exit_Button
+            // 
+            this.Exit_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Exit_Button.Location = new System.Drawing.Point(641, 506);
+            this.Exit_Button.Name = "Exit_Button";
+            this.Exit_Button.Size = new System.Drawing.Size(129, 44);
+            this.Exit_Button.TabIndex = 11;
+            this.Exit_Button.Text = "Wyjście";
+            this.Exit_Button.UseVisualStyleBackColor = true;
+            this.Exit_Button.Click += new System.EventHandler(this.Exit_Button_Click);
             // 
             // Admin_Panel
             // 
@@ -118,9 +120,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(782, 553);
+            this.Controls.Add(this.Exit_Button);
             this.Controls.Add(this.Author_Edit_Button);
             this.Controls.Add(this.Tittle_Edit_Button);
-            this.Controls.Add(this.Back_Button_WP);
             this.Controls.Add(this.Edit_Loans_Button);
             this.Controls.Add(this.Edit_Workers_Button);
             this.Controls.Add(this.Edit_CDs);
@@ -139,8 +141,8 @@
         private System.Windows.Forms.Button Edit_CDs;
         private System.Windows.Forms.Button Edit_Workers_Button;
         private System.Windows.Forms.Button Edit_Loans_Button;
-        private System.Windows.Forms.Button Back_Button_WP;
         private System.Windows.Forms.Button Tittle_Edit_Button;
         private System.Windows.Forms.Button Author_Edit_Button;
+        private System.Windows.Forms.Button Exit_Button;
     }
 }
