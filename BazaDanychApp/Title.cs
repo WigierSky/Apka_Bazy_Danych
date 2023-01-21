@@ -35,10 +35,6 @@ namespace BazaDanychApp
             this.Close();
         }
 
-        private void Del_Title_Button_Click(object sender, EventArgs e)
-        {
-            new Del_Titles().Show();
-            this.Close();
-        }
+
     }
 }

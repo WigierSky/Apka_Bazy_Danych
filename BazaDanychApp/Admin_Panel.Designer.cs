@@ -51,7 +51,7 @@
             // Edit_CDs
             // 
             this.Edit_CDs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Edit_CDs.Location = new System.Drawing.Point(300, 286);
+            this.Edit_CDs.Location = new System.Drawing.Point(297, 286);
             this.Edit_CDs.Name = "Edit_CDs";
             this.Edit_CDs.Size = new System.Drawing.Size(200, 200);
             this.Edit_CDs.TabIndex = 1;
@@ -73,7 +73,7 @@
             // Edit_Loans_Button
             // 
             this.Edit_Loans_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Edit_Loans_Button.Location = new System.Drawing.Point(300, 58);
+            this.Edit_Loans_Button.Location = new System.Drawing.Point(297, 58);
             this.Edit_Loans_Button.Name = "Edit_Loans_Button";
             this.Edit_Loans_Button.Size = new System.Drawing.Size(200, 200);
             this.Edit_Loans_Button.TabIndex = 3;

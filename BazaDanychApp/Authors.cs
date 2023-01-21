@@ -35,10 +35,5 @@ namespace BazaDanychApp
             this.Close();
         }
 
-        private void Author_Delete_Button_Click(object sender, EventArgs e)
-        {
-            new Delete_Authors().Show();
-            this.Close();
-        }
     }
 }

@@ -27,8 +27,8 @@ namespace BazaDanychApp
         private void Show_CDs_Load(object sender, EventArgs e)
         {
             Global.cnn.Open();
-            SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT  plyta_id, tytul.tytul, data_dodania, cena_zakupu, autorzy.imie_artysty, autorzy.nazwisko_artysty FROM plyta\r\nInner join tytul on plyta.tytul_id = tytul.tytul_id\r\nInner join autorzy on tytul.autor_id = autorzy.autor_id\r\nWHERE imie_artysty IS NOT NULL", Global.cnn);
-            SqlDataAdapter sqlDax = new SqlDataAdapter("SELECT  plyta_id, tytul.tytul, data_dodania, cena_zakupu, autorzy.nazwa_zespolu FROM plyta\r\nInner join tytul on plyta.tytul_id = tytul.tytul_id\r\nInner join autorzy on tytul.autor_id = autorzy.autor_id\r\nWHERE nazwa_zespolu IS NOT NULL", Global.cnn);
+            SqlDataAdapter sqlDa = new SqlDataAdapter("SELECT  plyta_id, tytul.tytul, data_dodania, cena_zakupu, dostepnosc, autorzy.imie_artysty, autorzy.nazwisko_artysty FROM plyta\r\nInner join tytul on plyta.tytul_id = tytul.tytul_id\r\nInner join autorzy on tytul.autor_id = autorzy.autor_id\r\nWHERE imie_artysty IS NOT NULL", Global.cnn);
+            SqlDataAdapter sqlDax = new SqlDataAdapter("SELECT  plyta_id, tytul.tytul, data_dodania, cena_zakupu, dostepnosc, autorzy.nazwa_zespolu FROM plyta\r\nInner join tytul on plyta.tytul_id = tytul.tytul_id\r\nInner join autorzy on tytul.autor_id = autorzy.autor_id\r\nWHERE nazwa_zespolu IS NOT NULL", Global.cnn);
             DataTable dt = new DataTable();
             sqlDa.Fill(dt);
             sqlDax.Fill(dt);

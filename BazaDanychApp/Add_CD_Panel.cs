@@ -107,7 +107,7 @@ namespace BazaDanychApp
             {
                 string nazwa = Team_Combo_Box.Text;
 
-                SqlCommand com = new SqlCommand("INSERT INTO plyta (data_dodania, cena_zakupu, tytul_id, admin_id) VALUES (@data, @cena, (SELECT tytul_id from tytul WHERE tytul = @tytul AND autor_id = (SELECT autor_id from autorzy WHERE nazwa_zespolu = @nazwa)), 1)", Global.cnn);
+                SqlCommand com = new SqlCommand("INSERT INTO plyta (data_dodania, cena_zakupu, tytul_id, admin_id, dostepnosc) VALUES (@data, @cena, (SELECT tytul_id from tytul WHERE tytul = @tytul AND autor_id = (SELECT autor_id from autorzy WHERE nazwa_zespolu = @nazwa)), 1, 1)", Global.cnn);
 
                 com.Parameters.AddWithValue("@data", date.ToString(format));
                 com.Parameters.AddWithValue("@cena", price);
@@ -127,7 +127,7 @@ namespace BazaDanychApp
                 string imie = Author_Combo_Box.Text;
                 string[] words = imie.Split(' ');
 
-                SqlCommand com = new SqlCommand("INSERT INTO plyta (data_dodania, cena_zakupu, tytul_id, admin_id) VALUES (@data, @cena, (SELECT tytul_id from tytul WHERE tytul = @tytul AND autor_id = (SELECT autor_id from autorzy WHERE imie_artysty = @imie AND nazwisko_artysty = @nazwisko)), 1)", Global.cnn);
+                SqlCommand com = new SqlCommand("INSERT INTO plyta (data_dodania, cena_zakupu, tytul_id, admin_id, dostepnosc) VALUES (@data, @cena, (SELECT tytul_id from tytul WHERE tytul = @tytul AND autor_id = (SELECT autor_id from autorzy WHERE imie_artysty = @imie AND nazwisko_artysty = @nazwisko)), 1, 1)", Global.cnn);
 
                 com.Parameters.AddWithValue("@data", date.ToString(format));
                 com.Parameters.AddWithValue("@cena", price);

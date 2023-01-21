@@ -31,7 +31,6 @@
             this.Back_Button = new System.Windows.Forms.Button();
             this.Author_Add_Button = new System.Windows.Forms.Button();
             this.Author_Show_Butt = new System.Windows.Forms.Button();
-            this.Author_Delete_Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Back_Button
@@ -48,7 +47,7 @@
             // Author_Add_Button
             // 
             this.Author_Add_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Author_Add_Button.Location = new System.Drawing.Point(36, 166);
+            this.Author_Add_Button.Location = new System.Drawing.Point(152, 157);
             this.Author_Add_Button.Name = "Author_Add_Button";
             this.Author_Add_Button.Size = new System.Drawing.Size(200, 200);
             this.Author_Add_Button.TabIndex = 27;
@@ -59,7 +58,7 @@
             // Author_Show_Butt
             // 
             this.Author_Show_Butt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Author_Show_Butt.Location = new System.Drawing.Point(294, 166);
+            this.Author_Show_Butt.Location = new System.Drawing.Point(456, 157);
             this.Author_Show_Butt.Name = "Author_Show_Butt";
             this.Author_Show_Butt.Size = new System.Drawing.Size(200, 200);
             this.Author_Show_Butt.TabIndex = 28;
@@ -67,23 +66,11 @@
             this.Author_Show_Butt.UseVisualStyleBackColor = true;
             this.Author_Show_Butt.Click += new System.EventHandler(this.Author_Show_Butt_Click);
             // 
-            // Author_Delete_Button
-            // 
-            this.Author_Delete_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Author_Delete_Button.Location = new System.Drawing.Point(552, 166);
-            this.Author_Delete_Button.Name = "Author_Delete_Button";
-            this.Author_Delete_Button.Size = new System.Drawing.Size(200, 200);
-            this.Author_Delete_Button.TabIndex = 30;
-            this.Author_Delete_Button.Text = "Usuń autorów";
-            this.Author_Delete_Button.UseVisualStyleBackColor = true;
-            this.Author_Delete_Button.Click += new System.EventHandler(this.Author_Delete_Button_Click);
-            // 
             // Authors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 553);
-            this.Controls.Add(this.Author_Delete_Button);
             this.Controls.Add(this.Author_Show_Butt);
             this.Controls.Add(this.Author_Add_Button);
             this.Controls.Add(this.Back_Button);
@@ -99,6 +86,5 @@
         private System.Windows.Forms.Button Back_Button;
         private System.Windows.Forms.Button Author_Add_Button;
         private System.Windows.Forms.Button Author_Show_Butt;
-        private System.Windows.Forms.Button Author_Delete_Button;
     }
 }

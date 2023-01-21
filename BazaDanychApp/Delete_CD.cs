@@ -33,6 +33,7 @@ namespace BazaDanychApp
         {
             Team_Combo_Box.ResetText();
             Title_Box.Items.Clear();
+            Title_Box.ResetText();
 
             Global.cnn.Open();
 
@@ -93,6 +94,7 @@ namespace BazaDanychApp
 
             Title_Box.Items.Clear();
             Author_Combo_Box.ResetText();
+            Title_Box.ResetText();
 
             Global.cnn.Open();
 
@@ -121,8 +123,8 @@ namespace BazaDanychApp
             string[] tit_words = title.Split('.');
 
             if(title != "")
-            {
-                SqlCommand comm = new SqlCommand("DELETE FROM plyta where plyta_id = @id", Global.cnn);
+            {      
+                SqlCommand comm = new SqlCommand("UPDATE plyta SET dostepnosc = '0' WHERE plyta_id = @id", Global.cnn);
                 comm.Parameters.AddWithValue("@id", Convert.ToInt32(tit_words[0]));
 
                 comm.ExecuteNonQuery();

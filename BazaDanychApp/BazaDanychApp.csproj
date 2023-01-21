@@ -82,23 +82,11 @@
     <Compile Include="CD_Panel.Designer.cs">
       <DependentUpon>CD_Panel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Delete_Authors.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Delete_Authors.Designer.cs">
-      <DependentUpon>Delete_Authors.cs</DependentUpon>
-    </Compile>
     <Compile Include="Delete_CD.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Delete_CD.Designer.cs">
       <DependentUpon>Delete_CD.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Del_Titles.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Del_Titles.Designer.cs">
-      <DependentUpon>Del_Titles.cs</DependentUpon>
     </Compile>
     <Compile Include="Global.cs" />
     <Compile Include="Client_Panel.cs">
@@ -184,14 +172,8 @@
     <EmbeddedResource Include="Client_Panel.resx">
       <DependentUpon>Client_Panel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Delete_Authors.resx">
-      <DependentUpon>Delete_Authors.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Delete_CD.resx">
       <DependentUpon>Delete_CD.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Del_Titles.resx">
-      <DependentUpon>Del_Titles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan_Panel.resx">
       <DependentUpon>Loan_Panel.cs</DependentUpon>
