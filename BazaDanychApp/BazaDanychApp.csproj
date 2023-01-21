@@ -94,6 +94,12 @@
     <Compile Include="Delete_CD.Designer.cs">
       <DependentUpon>Delete_CD.cs</DependentUpon>
     </Compile>
+    <Compile Include="Delete_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Client.Designer.cs">
+      <DependentUpon>Delete_Client.cs</DependentUpon>
+    </Compile>
     <Compile Include="Del_Titles.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,12 @@
     </Compile>
     <Compile Include="Show_CDs.Designer.cs">
       <DependentUpon>Show_CDs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Clients.Designer.cs">
+      <DependentUpon>Show_Clients.cs</DependentUpon>
     </Compile>
     <Compile Include="Show_Titles.cs">
       <SubType>Form</SubType>
@@ -190,6 +202,9 @@
     <EmbeddedResource Include="Delete_CD.resx">
       <DependentUpon>Delete_CD.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Client.resx">
+      <DependentUpon>Delete_Client.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Del_Titles.resx">
       <DependentUpon>Del_Titles.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Show_CDs.resx">
       <DependentUpon>Show_CDs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Clients.resx">
+      <DependentUpon>Show_Clients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_Titles.resx">
       <DependentUpon>Show_Titles.cs</DependentUpon>
