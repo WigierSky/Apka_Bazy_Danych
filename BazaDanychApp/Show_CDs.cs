@@ -33,7 +33,7 @@ namespace BazaDanychApp
             sqlDa.Fill(dt);
             sqlDax.Fill(dt);
 
-            dataGridView1.DataSource = dt;
+            dgvl.DataSource = dt;
 
             Global.cnn.Close();
         }

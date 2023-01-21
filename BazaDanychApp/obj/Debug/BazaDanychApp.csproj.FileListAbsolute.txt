@@ -25,3 +25,33 @@ E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Titl
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Add_Title.resources
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Show_CDs.resources
 E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_CD.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\bin\Debug\BazaDanychApp.exe.config
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\bin\Debug\BazaDanychApp.exe
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\bin\Debug\BazaDanychApp.pdb
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.csproj.AssemblyReference.cache
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.AddAuthors.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Add_CD_Panel.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Add_Title.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Add_Worker_Form.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Authors.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.CD_Panel.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Client_Panel.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_Authors.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_CD.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Del_Titles.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Loan_Panel.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Login_Screen.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Admin_Panel.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Properties.Resources.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Show_Authors.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Show_CDs.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Show_Titles.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Show_workers.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Title.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Worker_Panel.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.csproj.GenerateResource.cache
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.csproj.CoreCompileInputs.cache
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.exe
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.pdb
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Show_Clients.resources
+C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_Client.resources

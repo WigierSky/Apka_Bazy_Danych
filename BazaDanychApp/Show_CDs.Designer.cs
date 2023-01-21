@@ -29,43 +29,46 @@
         private void InitializeComponent()
         {
             this.Back_Button = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.dgvl = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvl)).BeginInit();
             this.SuspendLayout();
             // 
             // Back_Button
             // 
             this.Back_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Back_Button.Location = new System.Drawing.Point(648, 517);
+            this.Back_Button.Location = new System.Drawing.Point(486, 420);
+            this.Back_Button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Back_Button.Name = "Back_Button";
-            this.Back_Button.Size = new System.Drawing.Size(133, 37);
+            this.Back_Button.Size = new System.Drawing.Size(100, 30);
             this.Back_Button.TabIndex = 33;
             this.Back_Button.Text = "Wróć";
             this.Back_Button.UseVisualStyleBackColor = true;
             this.Back_Button.Click += new System.EventHandler(this.Back_Button_Click);
             // 
-            // dataGridView1
+            // dgvl
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(758, 499);
-            this.dataGridView1.TabIndex = 34;
+            this.dgvl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvl.Location = new System.Drawing.Point(9, 10);
+            this.dgvl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvl.Name = "dgvl";
+            this.dgvl.RowHeadersWidth = 51;
+            this.dgvl.RowTemplate.Height = 24;
+            this.dgvl.Size = new System.Drawing.Size(568, 405);
+            this.dgvl.TabIndex = 34;
             // 
             // Show_CDs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 553);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(586, 449);
+            this.Controls.Add(this.dgvl);
             this.Controls.Add(this.Back_Button);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Show_CDs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Show_CDs";
             this.Load += new System.EventHandler(this.Show_CDs_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvl)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -73,6 +76,6 @@
         #endregion
 
         private System.Windows.Forms.Button Back_Button;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvl;
     }
 }
