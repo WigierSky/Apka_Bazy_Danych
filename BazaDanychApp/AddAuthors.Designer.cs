@@ -42,7 +42,7 @@
             // 
             // Back_Button
             // 
-            this.Back_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Back_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Back_Button.Location = new System.Drawing.Point(300, 488);
             this.Back_Button.Name = "Back_Button";
             this.Back_Button.Size = new System.Drawing.Size(133, 37);
@@ -131,7 +131,7 @@
             // 
             // Add_Butt
             // 
-            this.Add_Butt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Add_Butt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Add_Butt.Location = new System.Drawing.Point(300, 434);
             this.Add_Butt.Name = "Add_Butt";
             this.Add_Butt.Size = new System.Drawing.Size(133, 37);

@@ -37,9 +37,11 @@
             // 
             // add_client_button
             // 
-            this.add_client_button.Location = new System.Drawing.Point(76, 68);
+            this.add_client_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.add_client_button.Location = new System.Drawing.Point(141, 62);
+            this.add_client_button.Margin = new System.Windows.Forms.Padding(4);
             this.add_client_button.Name = "add_client_button";
-            this.add_client_button.Size = new System.Drawing.Size(140, 131);
+            this.add_client_button.Size = new System.Drawing.Size(200, 200);
             this.add_client_button.TabIndex = 0;
             this.add_client_button.Text = "Dodaj klienta";
             this.add_client_button.UseVisualStyleBackColor = true;
@@ -47,9 +49,11 @@
             // 
             // edit_client_button
             // 
-            this.edit_client_button.Location = new System.Drawing.Point(351, 68);
+            this.edit_client_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.edit_client_button.Location = new System.Drawing.Point(414, 62);
+            this.edit_client_button.Margin = new System.Windows.Forms.Padding(4);
             this.edit_client_button.Name = "edit_client_button";
-            this.edit_client_button.Size = new System.Drawing.Size(141, 131);
+            this.edit_client_button.Size = new System.Drawing.Size(200, 200);
             this.edit_client_button.TabIndex = 1;
             this.edit_client_button.Text = "Edytuj klienta";
             this.edit_client_button.UseVisualStyleBackColor = true;
@@ -57,9 +61,11 @@
             // 
             // delete_client_button
             // 
-            this.delete_client_button.Location = new System.Drawing.Point(76, 247);
+            this.delete_client_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.delete_client_button.Location = new System.Drawing.Point(141, 284);
+            this.delete_client_button.Margin = new System.Windows.Forms.Padding(4);
             this.delete_client_button.Name = "delete_client_button";
-            this.delete_client_button.Size = new System.Drawing.Size(140, 131);
+            this.delete_client_button.Size = new System.Drawing.Size(200, 200);
             this.delete_client_button.TabIndex = 2;
             this.delete_client_button.Text = "Usuń klienta";
             this.delete_client_button.UseVisualStyleBackColor = true;
@@ -67,9 +73,11 @@
             // 
             // display_client_button
             // 
-            this.display_client_button.Location = new System.Drawing.Point(351, 247);
+            this.display_client_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.display_client_button.Location = new System.Drawing.Point(414, 284);
+            this.display_client_button.Margin = new System.Windows.Forms.Padding(4);
             this.display_client_button.Name = "display_client_button";
-            this.display_client_button.Size = new System.Drawing.Size(141, 131);
+            this.display_client_button.Size = new System.Drawing.Size(200, 200);
             this.display_client_button.TabIndex = 3;
             this.display_client_button.Text = "Wyświetl klientów";
             this.display_client_button.UseVisualStyleBackColor = true;
@@ -77,9 +85,11 @@
             // 
             // back_button_client
             // 
-            this.back_button_client.Location = new System.Drawing.Point(489, 394);
+            this.back_button_client.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.back_button_client.Location = new System.Drawing.Point(661, 518);
+            this.back_button_client.Margin = new System.Windows.Forms.Padding(4);
             this.back_button_client.Name = "back_button_client";
-            this.back_button_client.Size = new System.Drawing.Size(75, 23);
+            this.back_button_client.Size = new System.Drawing.Size(108, 32);
             this.back_button_client.TabIndex = 4;
             this.back_button_client.Text = "Wróć";
             this.back_button_client.UseVisualStyleBackColor = true;
@@ -87,15 +97,15 @@
             // 
             // Client_Panel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(576, 429);
+            this.ClientSize = new System.Drawing.Size(782, 553);
             this.Controls.Add(this.back_button_client);
             this.Controls.Add(this.display_client_button);
             this.Controls.Add(this.delete_client_button);
             this.Controls.Add(this.edit_client_button);
             this.Controls.Add(this.add_client_button);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Client_Panel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Client_Panel";

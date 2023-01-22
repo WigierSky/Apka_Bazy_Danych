@@ -51,6 +51,8 @@
             this.Add_button = new System.Windows.Forms.Button();
             this.Back_Button = new System.Windows.Forms.Button();
             this.Name_Textbox = new System.Windows.Forms.TextBox();
+            this.City_box = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Add_Worker_Label
@@ -199,6 +201,7 @@
             // 
             this.PESEL_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.PESEL_textbox.Location = new System.Drawing.Point(168, 220);
+            this.PESEL_textbox.MaxLength = 11;
             this.PESEL_textbox.Name = "PESEL_textbox";
             this.PESEL_textbox.Size = new System.Drawing.Size(145, 27);
             this.PESEL_textbox.TabIndex = 17;
@@ -207,6 +210,7 @@
             // 
             this.Phone_Num_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Phone_Num_textbox.Location = new System.Drawing.Point(532, 326);
+            this.Phone_Num_textbox.MaxLength = 13;
             this.Phone_Num_textbox.Name = "Phone_Num_textbox";
             this.Phone_Num_textbox.Size = new System.Drawing.Size(146, 27);
             this.Phone_Num_textbox.TabIndex = 18;
@@ -215,6 +219,7 @@
             // 
             this.PIN_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.PIN_textbox.Location = new System.Drawing.Point(167, 274);
+            this.PIN_textbox.MaxLength = 4;
             this.PIN_textbox.Name = "PIN_textbox";
             this.PIN_textbox.Size = new System.Drawing.Size(146, 27);
             this.PIN_textbox.TabIndex = 19;
@@ -231,14 +236,15 @@
             // 
             this.Salary_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.Salary_textbox.Location = new System.Drawing.Point(168, 326);
+            this.Salary_textbox.MaxLength = 7;
             this.Salary_textbox.Name = "Salary_textbox";
             this.Salary_textbox.Size = new System.Drawing.Size(146, 27);
             this.Salary_textbox.TabIndex = 22;
             // 
             // Add_button
             // 
-            this.Add_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Add_button.Location = new System.Drawing.Point(330, 423);
+            this.Add_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Add_button.Location = new System.Drawing.Point(330, 461);
             this.Add_button.Name = "Add_button";
             this.Add_button.Size = new System.Drawing.Size(133, 37);
             this.Add_button.TabIndex = 23;
@@ -248,8 +254,8 @@
             // 
             // Back_Button
             // 
-            this.Back_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Back_Button.Location = new System.Drawing.Point(330, 481);
+            this.Back_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Back_Button.Location = new System.Drawing.Point(330, 504);
             this.Back_Button.Name = "Back_Button";
             this.Back_Button.Size = new System.Drawing.Size(133, 37);
             this.Back_Button.TabIndex = 24;
@@ -265,11 +271,31 @@
             this.Name_Textbox.Size = new System.Drawing.Size(145, 27);
             this.Name_Textbox.TabIndex = 12;
             // 
+            // City_box
+            // 
+            this.City_box.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.City_box.Location = new System.Drawing.Point(532, 376);
+            this.City_box.Name = "City_box";
+            this.City_box.Size = new System.Drawing.Size(146, 27);
+            this.City_box.TabIndex = 25;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(438, 383);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 20);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Miasto";
+            // 
             // Add_Worker_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 553);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.City_box);
             this.Controls.Add(this.Back_Button);
             this.Controls.Add(this.Add_button);
             this.Controls.Add(this.Salary_textbox);
@@ -326,5 +352,7 @@
         private System.Windows.Forms.Button Add_button;
         private System.Windows.Forms.Button Back_Button;
         private System.Windows.Forms.TextBox Name_Textbox;
+        private System.Windows.Forms.TextBox City_box;
+        private System.Windows.Forms.Label label2;
     }
 }

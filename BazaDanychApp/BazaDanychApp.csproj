@@ -52,6 +52,18 @@
     <Compile Include="AddAuthors.Designer.cs">
       <DependentUpon>AddAuthors.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddClient.Designer.cs">
+      <DependentUpon>AddClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddLoan.Designer.cs">
+      <DependentUpon>AddLoan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add_CD_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +94,65 @@
     <Compile Include="CD_Panel.Designer.cs">
       <DependentUpon>CD_Panel.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChooseClientEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseClientEdit.Designer.cs">
+      <DependentUpon>ChooseClientEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseClientEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseClientEnd.Designer.cs">
+      <DependentUpon>ChooseClientEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseClientLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseClientLoan.Designer.cs">
+      <DependentUpon>ChooseClientLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseWorkerEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseWorkerEdit.Designer.cs">
+      <DependentUpon>ChooseWorkerEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Delete_CD.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Delete_CD.Designer.cs">
       <DependentUpon>Delete_CD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Client.Designer.cs">
+      <DependentUpon>Delete_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Worker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Worker.Designer.cs">
+      <DependentUpon>Delete_Worker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditClient.Designer.cs">
+      <DependentUpon>EditClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditWorker.Designer.cs">
+      <DependentUpon>EditWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EndLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndLoan.Designer.cs">
+      <DependentUpon>EndLoan.cs</DependentUpon>
     </Compile>
     <Compile Include="Global.cs" />
     <Compile Include="Client_Panel.cs">
@@ -115,6 +181,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowClosedLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowClosedLoans.Designer.cs">
+      <DependentUpon>ShowClosedLoans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowLoans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowLoans.Designer.cs">
+      <DependentUpon>ShowLoans.cs</DependentUpon>
+    </Compile>
     <Compile Include="Show_Authors.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +204,12 @@
     </Compile>
     <Compile Include="Show_CDs.Designer.cs">
       <DependentUpon>Show_CDs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Show_Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Show_Clients.Designer.cs">
+      <DependentUpon>Show_Clients.cs</DependentUpon>
     </Compile>
     <Compile Include="Show_Titles.cs">
       <SubType>Form</SubType>
@@ -145,6 +229,12 @@
     <Compile Include="Title.Designer.cs">
       <DependentUpon>Title.cs</DependentUpon>
     </Compile>
+    <Compile Include="WorkerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerLogin.Designer.cs">
+      <DependentUpon>WorkerLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Worker_Panel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +243,12 @@
     </Compile>
     <EmbeddedResource Include="AddAuthors.resx">
       <DependentUpon>AddAuthors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddClient.resx">
+      <DependentUpon>AddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddLoan.resx">
+      <DependentUpon>AddLoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Add_CD_Panel.resx">
       <DependentUpon>Add_CD_Panel.cs</DependentUpon>
@@ -169,11 +265,38 @@
     <EmbeddedResource Include="CD_Panel.resx">
       <DependentUpon>CD_Panel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChooseClientEdit.resx">
+      <DependentUpon>ChooseClientEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseClientEnd.resx">
+      <DependentUpon>ChooseClientEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseClientLoan.resx">
+      <DependentUpon>ChooseClientLoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseWorkerEdit.resx">
+      <DependentUpon>ChooseWorkerEdit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Client_Panel.resx">
       <DependentUpon>Client_Panel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Delete_CD.resx">
       <DependentUpon>Delete_CD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Client.resx">
+      <DependentUpon>Delete_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Worker.resx">
+      <DependentUpon>Delete_Worker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditClient.resx">
+      <DependentUpon>EditClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditWorker.resx">
+      <DependentUpon>EditWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndLoan.resx">
+      <DependentUpon>EndLoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loan_Panel.resx">
       <DependentUpon>Loan_Panel.cs</DependentUpon>
@@ -193,11 +316,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ShowClosedLoans.resx">
+      <DependentUpon>ShowClosedLoans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowLoans.resx">
+      <DependentUpon>ShowLoans.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Show_Authors.resx">
       <DependentUpon>Show_Authors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_CDs.resx">
       <DependentUpon>Show_CDs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Show_Clients.resx">
+      <DependentUpon>Show_Clients.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Show_Titles.resx">
       <DependentUpon>Show_Titles.cs</DependentUpon>
@@ -207,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Title.resx">
       <DependentUpon>Title.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerLogin.resx">
+      <DependentUpon>WorkerLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Worker_Panel.resx">
       <DependentUpon>Worker_Panel.cs</DependentUpon>

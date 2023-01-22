@@ -55,3 +55,18 @@ C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\
 C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.pdb
 C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Show_Clients.resources
 C:\Users\krajka\Source\Repos\WigierSky\Apka_Bazy_Danych\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_Client.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_Client.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Show_Clients.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.Delete_Worker.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.AddClient.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.ChooseWorkerEdit.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.EditWorker.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.ChooseClientEdit.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.EditClient.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.AddLoan.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.ChooseClientLoan.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.ShowClosedLoans.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.ShowLoans.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.ChooseClientEnd.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.EndLoan.resources
+E:\Studia\Bazy danych 2\BazaDanychApp\BazaDanychApp\obj\Debug\BazaDanychApp.WorkerLogin.resources

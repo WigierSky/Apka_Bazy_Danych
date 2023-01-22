@@ -9,8 +9,10 @@ namespace BazaDanychApp
 {
     public static class Global
     {
-        public static bool isAdmin = false;
+        public static bool isAdmin = true;
+        public static int pracownik_id = 0;
         public static string connetionString = @"Data Source=DESKTOP-T5M32D0;Initial Catalog=wypozyczalnia_plyt_winylowych;Integrated Security=true";
         public static SqlConnection cnn = new SqlConnection(connetionString);
     }
+
 }

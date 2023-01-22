@@ -19,23 +19,33 @@ namespace BazaDanychApp
 
         private void add_client_button_click(object sender, EventArgs e)
         {
-
+            new AddClient().Show();
+            this.Close();
         }
 
         private void edit_client_button_click(object sender, EventArgs e)
         {
-
+            new ChooseClientEdit().Show();
+            this.Close();
         }
 
         private void delete_client_buttno_click(object sender, EventArgs e)
         {
-
+            new Delete_Client().Show();
+            this.Close();
         }
 
         private void back_button_client_Click(object sender, EventArgs e)
         {
-            new Admin_Panel().Show();
-            this.Close();
+            if (Global.isAdmin)
+            {
+                new Admin_Panel().Show();
+                this.Close();
+            }else if (!Global.isAdmin)
+            {
+                new WorkerLogin().Show();
+                this.Close();
+            }
         }
 
         private void display_client_button_Click(object sender, EventArgs e)

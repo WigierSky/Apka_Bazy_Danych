@@ -44,7 +44,7 @@
             this.Edit_Clients_Button.Name = "Edit_Clients_Button";
             this.Edit_Clients_Button.Size = new System.Drawing.Size(200, 200);
             this.Edit_Clients_Button.TabIndex = 0;
-            this.Edit_Clients_Button.Text = "Edytuj klientów";
+            this.Edit_Clients_Button.Text = "Zarządzaj klientami";
             this.Edit_Clients_Button.UseVisualStyleBackColor = true;
             this.Edit_Clients_Button.Click += new System.EventHandler(this.Edit_Clients_Button_Click);
             // 
@@ -66,7 +66,7 @@
             this.Edit_Workers_Button.Name = "Edit_Workers_Button";
             this.Edit_Workers_Button.Size = new System.Drawing.Size(200, 200);
             this.Edit_Workers_Button.TabIndex = 2;
-            this.Edit_Workers_Button.Text = "Edytuj pracowników";
+            this.Edit_Workers_Button.Text = "Zarządzaj pracownikami";
             this.Edit_Workers_Button.UseVisualStyleBackColor = true;
             this.Edit_Workers_Button.Click += new System.EventHandler(this.Edit_Workers_Button_Click);
             // 

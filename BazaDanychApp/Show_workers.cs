@@ -20,7 +20,7 @@ namespace BazaDanychApp
 
         private void Back_Button_Click(object sender, EventArgs e)
         {
-            new Admin_Panel().Show();
+            new Worker_Panel().Show();
             this.Close();
         }
 

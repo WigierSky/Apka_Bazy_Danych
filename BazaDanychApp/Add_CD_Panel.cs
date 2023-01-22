@@ -60,7 +60,7 @@ namespace BazaDanychApp
 
         private void Team_Combo_Box_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            Title_Box.ResetText();
             Title_Box.Items.Clear();
             Author_Combo_Box.ResetText();
 
@@ -90,7 +90,7 @@ namespace BazaDanychApp
             try
             {
                 price = Convert.ToInt32(Price_TextBox.Text);
-            }catch(System.FormatException f)
+            }catch(System.FormatException)
             {
                 Price_TextBox.Clear();
                 MessageBox.Show("Cena musi być liczbą!");
@@ -156,6 +156,7 @@ namespace BazaDanychApp
         {
             Team_Combo_Box.ResetText();
             Title_Box.Items.Clear();
+            Title_Box.ResetText();
 
             Global.cnn.Open();
 

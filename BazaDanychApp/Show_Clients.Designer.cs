@@ -37,9 +37,11 @@ namespace BazaDanychApp
             // Back_button
             // 
             this.Back_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Back_button.Location = new System.Drawing.Point(508, 419);
+            this.Back_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Back_button.Location = new System.Drawing.Point(664, 516);
+            this.Back_button.Margin = new System.Windows.Forms.Padding(4);
             this.Back_button.Name = "Back_button";
-            this.Back_button.Size = new System.Drawing.Size(78, 30);
+            this.Back_button.Size = new System.Drawing.Size(117, 37);
             this.Back_button.TabIndex = 1;
             this.Back_button.Text = "Powrót";
             this.Back_button.UseVisualStyleBackColor = true;
@@ -48,19 +50,22 @@ namespace BazaDanychApp
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, -1);
+            this.dataGridView1.Location = new System.Drawing.Point(10, 9);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(586, 414);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(758, 499);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // Show_Clients
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(586, 449);
+            this.ClientSize = new System.Drawing.Size(781, 553);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Back_button);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Show_Clients";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Show_Clients";

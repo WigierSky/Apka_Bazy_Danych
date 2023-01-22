@@ -66,13 +66,14 @@
             this.Delete_Worker_Button.TabIndex = 6;
             this.Delete_Worker_Button.Text = "Usuń pracownika";
             this.Delete_Worker_Button.UseVisualStyleBackColor = true;
+            this.Delete_Worker_Button.Click += new System.EventHandler(this.Delete_Worker_Button_Click);
             // 
             // Back_Button_WP
             // 
             this.Back_Button_WP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Back_Button_WP.Location = new System.Drawing.Point(681, 518);
+            this.Back_Button_WP.Location = new System.Drawing.Point(677, 518);
             this.Back_Button_WP.Name = "Back_Button_WP";
-            this.Back_Button_WP.Size = new System.Drawing.Size(99, 33);
+            this.Back_Button_WP.Size = new System.Drawing.Size(103, 33);
             this.Back_Button_WP.TabIndex = 7;
             this.Back_Button_WP.Text = "Wróć";
             this.Back_Button_WP.UseVisualStyleBackColor = true;

@@ -31,12 +31,19 @@ namespace BazaDanychApp
 
         private void Edit_Worker_Button_Click(object sender, EventArgs e)
         {
-
+            new ChooseWorkerEdit().Show();
+            this.Close();
         }
 
         private void Show_butt_Click(object sender, EventArgs e)
         {
             new Show_workers().Show();
+            this.Close();
+        }
+
+        private void Delete_Worker_Button_Click(object sender, EventArgs e)
+        {
+            new Delete_Worker().Show();
             this.Close();
         }
     }

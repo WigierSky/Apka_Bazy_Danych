@@ -70,7 +70,7 @@ namespace BazaDanychApp
             {
                 price = Convert.ToInt32(Price_TextBox.Text);
             }
-            catch (System.FormatException f)
+            catch (System.FormatException)
             {
                 Price_TextBox.Clear();
                 MessageBox.Show("Cena musi być liczbą!");
