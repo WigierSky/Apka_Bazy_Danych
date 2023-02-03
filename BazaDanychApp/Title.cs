@@ -35,6 +35,5 @@ namespace BazaDanychApp
             this.Close();
         }
 
-
     }
 }

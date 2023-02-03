@@ -69,12 +69,23 @@ namespace BazaDanychApp
         private void Del_butt_Click(object sender, EventArgs e)
         {
             Global.cnn.Open();
+            string Text = Worker_Box.Text;
+            string[] words = Text.Split(' ');
 
-            if (Worker_Box.Text != "")
+            List<int> list = new List<int>();
+
+            SqlCommand comm3 = new SqlCommand("SELECT wypozyczenie_id from wypozyczenie WHERE data_oddania IS NULL AND klient_id = (SELECT klient_id FROM dane WHERE pesel = @pesel)", Global.cnn);
+            comm3.Parameters.AddWithValue("@pesel", words[2]);
+            using (SqlDataReader reader = comm3.ExecuteReader())
             {
+                while (reader.Read())
+                {
+                    list.Add(Convert.ToInt32(String.Format("{0}", reader[0])));      
+                }
+            }
 
-                string Text = Worker_Box.Text;
-                string[] words = Text.Split(' ');
+            if (Worker_Box.Text != "" && !list.Any())
+            {
 
                 string ids = "";
 
@@ -91,6 +102,12 @@ namespace BazaDanychApp
 
                 string[] ids_sep = ids.Split(' ');
 
+                SqlCommand upd = new SqlCommand("UPDATE klient SET opis = @opis WHERE klient_id = (SELECT klient_id FROM dane WHERE pesel = @pesel)", Global.cnn);
+                upd.Parameters.AddWithValue("@opis", "Usunięty");
+                upd.Parameters.AddWithValue("@pesel", words[2]);
+                upd.ExecuteNonQuery();
+
+
                 SqlCommand deldata = new SqlCommand("DELETE from dane WHERE pesel = @pesel", Global.cnn);
                 deldata.Parameters.AddWithValue("@pesel", words[2]);
                 deldata.ExecuteNonQuery();
@@ -103,6 +120,7 @@ namespace BazaDanychApp
                 deladd.Parameters.AddWithValue("@id", ids_sep[0]);
                 deladd.ExecuteNonQuery();
 
+                
 
                 MessageBox.Show("Usunięto klienta " + Name_Textbox.Text + " " +  Surname_textbox.Text);
 
@@ -112,13 +130,18 @@ namespace BazaDanychApp
                 Worker_Box.Items.Clear();
 
             }
-            else
+            else if(Worker_Box.Text == "")
             {
                 MessageBox.Show("Wybierz klienta!");
+            }
+            else
+            {
+                MessageBox.Show("Klient ma aktywne wypożyczenia!");
             }
 
 
             Global.cnn.Close();
         }
+
     }
 }

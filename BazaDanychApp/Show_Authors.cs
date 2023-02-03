@@ -41,5 +41,6 @@ namespace BazaDanychApp
 
             Global.cnn.Close();
         }
+
     }
 }

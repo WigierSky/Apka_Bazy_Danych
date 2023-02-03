@@ -84,5 +84,7 @@ namespace BazaDanychApp
                 MessageBox.Show("Wybierz klienta!");
             }
         }
+
+
     }
 }

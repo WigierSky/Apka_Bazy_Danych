@@ -68,7 +68,7 @@ namespace BazaDanychApp
                     }
                 }
 
-                var diff = date2 - date;
+                var diff = date - date2;
 
                 if (diff.Days > days)
                 {
@@ -118,5 +118,6 @@ namespace BazaDanychApp
 
             Global.cnn.Close();
         }
+
     }
 }

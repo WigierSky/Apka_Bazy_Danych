@@ -38,5 +38,6 @@ namespace BazaDanychApp
             dataGridView1.DataSource = dn;
             Global.cnn.Close();
         }
+
     }
 }

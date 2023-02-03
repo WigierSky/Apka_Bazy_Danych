@@ -144,6 +144,7 @@ namespace BazaDanychApp
             this.Controls.Add(this.Back_Button_WP);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Delete_Client";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Delete_Client";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -40,5 +40,7 @@ namespace BazaDanychApp
             new Delete_CD().Show();
             this.Close();
         }
+
+
     }
 }
